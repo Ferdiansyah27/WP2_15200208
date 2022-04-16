@@ -1,9 +1,9 @@
 <?php
-class Matakuliah extends CI_Controller
+class Mahasiswa extends CI_Controller
 {
  public function index()
  {
- $this->load->view('view-form-matakuliah');
+ $this->load->view('view-form-mahasiswa');
  }
  public function cetak()
  {
@@ -17,6 +17,6 @@ class Matakuliah extends CI_Controller
  'jenis' => $this->input->post('jenis'),
  'agama'  => $this->input->post('agama'),
  ];
- $this->load->view('view-data-matakuliah', $data);
+ $this->load->view('view-data-mahasiswa', $data);
  }
 }

@@ -4,7 +4,7 @@
 </head>
 <body>
  <center>
- <form action="<?= base_url('matakuliah/cetak'); ?>" method="post">
+ <form action="<?= base_url('Mahasiswa/cetak'); ?>" method="post">
  <table>
  <tr>
  <th colspan="3">
@@ -60,10 +60,10 @@
  </tr>
  <tr>
      <th>Jenis Kelamin</th>
-     <td>:</td>
+     <th>:</th>
      <td>
-         <input type="radio" name="jenis_kelamin" value="laki-laki" checked="">laki-laki
-         <input type="radio" name="jenis_kelamin" value="perempuan" checked="">perempuan
+         <input type="radio" name="jenis" value="laki-laki" checked="">laki-laki
+         <input type="radio" name="jenis" value="perempuan" checked="">perempuan
 </td>
 </tr>
  <tr>
